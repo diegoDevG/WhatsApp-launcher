@@ -1,4 +1,5 @@
 <template>
+<!-- eslint-disable max-len -->
 <div class="container px-5 lg:w-1/2 md:w-2/3 mx-auto flex flex-wrap">
   <div style='background: #00776b' class="md:w-1/2 w-full p-5 flex justify-center align-center flex-col text-white  rounded-t-lg md:rounded-l-lg md:rounded-r-none">
     <h2 class="text-gray-200 text-lg mb-1 font-medium title-font">WhatsApp Launcher</h2>
