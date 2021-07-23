@@ -1,26 +1,53 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div class="app-wrapper">
+  <WhatsappForm />
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import WhatsappForm from './components/WhatsappForm.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    WhatsappForm,
   },
 };
 </script>
 
-<style lang="scss">
+<style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /* color: #2c3e50; */
+  /* margin-top: 60px; */
+}
+
+.app-wrapper{
+  height:100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@media (max-width: 768px) {
+  .app-wrapper {
+    height: auto;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+   }
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 </style>
