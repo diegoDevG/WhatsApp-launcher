@@ -1,16 +1,19 @@
 <template>
 <div class="app-wrapper">
   <WhatsappForm />
+  <MainFooter />
 </div>
 </template>
 
 <script>
 import WhatsappForm from './components/WhatsappForm.vue';
+import MainFooter from './components/MainFooter.vue';
 
 export default {
   name: 'App',
   components: {
     WhatsappForm,
+    MainFooter,
   },
 };
 </script>
@@ -30,6 +33,7 @@ export default {
   display: flex;
   justify-content:center;
   align-items:center;
+  flex-direction:column;
 }
 
 @media (max-width: 768px) {

@@ -5,3 +5,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body, #app, .app-wrapper {
+    height: 100%;
+}
