@@ -1,5 +1,6 @@
 {
-  "name": "WhatsApp Launcher",
+  "name": "whatsapp-launcher",
+  "short_name": "WhatsApp Launcher",
   "version": "0.1.0",
   "private": true,
   "scripts": {
