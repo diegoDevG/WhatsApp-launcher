@@ -29,7 +29,7 @@
             <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
           </svg>
         </button>
-      <p class="text-xs text-gray-800  mt-3">Al hacer click en el boton seras redirigido a la aplicacion de WhatsApp instalada en tu dispositivo</p>
+      <p class="text-xs text-gray-800  mt-3">Al hacer clic en el botón, serás redirigido a la aplicación WhatsApp instalada en tu dispositivo.</p>
 
     </div>
   </div>
